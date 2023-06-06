@@ -1,14 +1,12 @@
 import Image from 'next/image';
+import Launch from '../ui/Launch';
+import Start from './Start/page';
 
 export default function Home() {
+  const flag: any = true;
   return (
     <>
-      <main>
-        <section>
-          <h1>新規登録</h1>
-          <p>名前</p>
-        </section>
-      </main>
+      <main>{flag === false ? <Launch /> : <Start />}</main>
     </>
   );
 }
