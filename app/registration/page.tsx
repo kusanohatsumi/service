@@ -1,5 +1,4 @@
 'use client';
-import Border from '@/ui/border';
 import Button from '@/ui/button/button';
 import Button__border from '@/ui/button/button-border';
 import FlexCenter from '@/ui/center';
