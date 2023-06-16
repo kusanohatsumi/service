@@ -7,6 +7,9 @@ const NavLink_now = styled.div`
   height: 34px;
   border-radius: 50%;
   background: #8ad8d4;
+  text-align: center;
+  line-height: 34px;
+  padding: 4px;
 `;
 
 export default NavLink_now;

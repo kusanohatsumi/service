@@ -1,5 +1,6 @@
 import NavLink from '@/ui/nav_link/navlink';
 import NavLink_now from '@/ui/nav_link/navlink_now';
+import Image from 'next/image';
 import styled from 'styled-components';
 
 const Navlink_all = styled.div`
@@ -27,10 +28,11 @@ export default function Navlink() {
   return (
     <>
       <Navlink_all>
-        {/* <NavLink_now></NavLink_now> */}
         <div className="flex flex-col items-center">
-          <NavLink className="mb-2">1</NavLink>
-          <p>基本情報</p>
+          <NavLink_now className="mb-2">
+            <Image src="/check.svg" width={34} height={34} alt="完了" />
+          </NavLink_now>
+          <p className="opacity-60">基本情報</p>
         </div>
         <Border className="mt-4" />
         <div className="flex flex-col items-center opacity-60">
