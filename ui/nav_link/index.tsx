@@ -4,8 +4,8 @@ import styled from 'styled-components';
 
 const Navlink_all = styled.div`
   width: 100%;
-  height: 70px;
-  padding: 32px;
+  height: auto;
+  padding: 12px 32px;
   font-size: 12px;
   display: flex;
 
@@ -26,7 +26,6 @@ const Border = styled.div`
 export default function Navlink() {
   return (
     <>
-      {' '}
       <Navlink_all>
         {/* <NavLink_now></NavLink_now> */}
         <div className="flex flex-col items-center">
