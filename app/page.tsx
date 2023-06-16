@@ -1,13 +1,13 @@
 'use client';
 
 import Navlink from '@/ui/nav_link';
-import Title from '@/ui/title';
+import Head from '@/ui/nav_head';
 
 export default function Home() {
   return (
     <>
       <main>
-        <Title>{/* ここに項目名を書く */}</Title>
+        <Head />
         <Navlink />
       </main>
     </>
