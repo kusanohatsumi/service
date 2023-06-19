@@ -6,6 +6,7 @@ import External from '@/ui/external';
 import Image from 'next/image';
 import styled from 'styled-components';
 
+
 const Container = styled.div`
   position: relative;
   width: 100vw;
