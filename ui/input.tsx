@@ -1,6 +1,7 @@
 'use client';
 import styled from 'styled-components';
 
+//新規登録のフォームで使用する部品
 const Input = styled.input.attrs({
   required: true,
 })`

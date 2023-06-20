@@ -1,4 +1,5 @@
 // 外部アカウント
+// 下に出ているツイッターとグーグルのボタンの画面
 'use client';
 import styled from 'styled-components';
 import FlexCenter from './center';

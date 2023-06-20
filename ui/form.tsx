@@ -1,4 +1,5 @@
 'use client';
+//新規登録のフォーム
 
 import styled from 'styled-components';
 import Button from './button/button';
