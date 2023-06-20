@@ -24,33 +24,37 @@ const Border = styled.div`
   );
 `;
 
+const NavItem = styled.div`
+  dsiplay: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
 export default function Navlink() {
   return (
     <>
       <Navlink_all>
-        <div className="flex flex-col items-center">
+        <NavItem>
           <NavLink_now className="mb-2">
             <Image src="/check.svg" width={34} height={34} alt="完了" />
           </NavLink_now>
           <p className="opacity-60">基本情報</p>
-        </div>
+        </NavItem>
         <Border className="mt-4" />
-        <div className="flex flex-col items-center opacity-60">
+        <NavItem>
           <NavLink className="mb-2">2</NavLink>
           <p>本人認証</p>
-        </div>
+        </NavItem>
         <Border className="mt-4 opacity-60" />
-
-        <div className="flex flex-col items-center opacity-60">
+        <NavItem>
           <NavLink className="mb-2">3</NavLink>
           <p>事前診断</p>
-        </div>
+        </NavItem>
         <Border className="mt-4 opacity-60" />
-
-        <div className="flex flex-col items-center opacity-60">
+        <NavItem>
           <NavLink className="mb-2">4</NavLink>
           <p>診断確認</p>
-        </div>
+        </NavItem>
       </Navlink_all>
     </>
   );
