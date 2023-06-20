@@ -3,7 +3,7 @@
 import styled from 'styled-components';
 
 const text_buttom = styled.div`
-  border: solid 2px skyblue;
+  border: solid 2px gray;
   margin-right: auto;
   margin-left: auto;
   color: red;

@@ -50,7 +50,7 @@ export default function Login() {
   return (
     <>
       <Collarfont>
-        ＜
+        
       </Collarfont>
       <Collarfont>
         <h1>アカウント作成</h1>
@@ -60,7 +60,7 @@ export default function Login() {
 
       <h2>ユーザーネーム</h2>
       <Text_line><input type="text" id="name" name="name" placeholder="username" ></input></Text_line>
-      <text_borderline></text_borderline>
+      
       <Errer><h3>エラーメッセージをここに表示</h3></Errer>
      
       
