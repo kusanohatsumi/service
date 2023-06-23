@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import FlexCenter from './center';
 import Image from 'next/image';
 
-const Externaltab = styled.div`
+  const Externaltab = styled.div`
   width: 100%;
   height: 280px;
   padding-top: 20px;
