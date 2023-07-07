@@ -1,6 +1,6 @@
-
-import 'styles/globals.css'
-import { Inter } from 'next/font/google'
+import 'styles/globals.css';
+import { Inter } from 'next/font/google';
+import Head from 'next/head';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -16,7 +16,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
-      <body className={inter.className}>{children}</body>
+      <Head>
+        {/* <link rel="icon" type="image/x-icon" href="/favicon.ico" /> */}
+      </Head>
+      <body className={inter.className}>
+        <main>{children}</main>
+      </body>
     </html>
   );
 }
