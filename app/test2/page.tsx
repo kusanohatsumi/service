@@ -1,10 +1,10 @@
 'use client';
 
 import styled from 'styled-components';
-import Group from "@/ui/community/group1";
+import Group from "@/ui/community/group";
 import "@/ui/community/group";
 import Flexusericon from "@/ui/community/circle";
-import Icon_size from "@/ui/community/icon_s";
+import Icon_size from "@/ui/community/icon_size";
 import Image from 'next/image';
 
 
