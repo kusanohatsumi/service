@@ -7,8 +7,6 @@ const Filelabel = styled.label`
     background: url("/comm_photo.svg") no-repeat;
     border: solid 1px #8AD8D4;
     z-index: 10;
-
-
 `;
 
 const File = styled.input.attrs({
@@ -17,7 +15,7 @@ const File = styled.input.attrs({
 
 })`
     display: none;`;
-
+  
 export const FlexCenter_S = styled.div`
     //丸い形_S_size;
     position: absolute;
@@ -26,12 +24,10 @@ export const FlexCenter_S = styled.div`
     align-items: center;
     width: 42px;
     height: 42px;
-    border-radius: 50%;
     background-color: #8AD8D4;
     bottom: 7px;
     right: 11px;
-
-    
+    border-radius: 50%;
 `;
 
 export const FlexCenter_L = styled.div`

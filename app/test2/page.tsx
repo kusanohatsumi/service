@@ -1,19 +1,39 @@
+'use client';
+
+import styled from 'styled-components';
 import Group from "@/ui/community/group1";
-import  "@/ui/community/group";
+import "@/ui/community/group";
 import Flexusericon from "@/ui/community/circle";
 import Icon_size from "@/ui/community/icon_s";
+import Image from 'next/image';
+
+
+const StyledButton = styled.a`
+    // filebutton
+    
+`;
 
 export default function test2() {
-    return (
-      <>
-        <h1>テストtest</h1>
-        <Icon_size></Icon_size>
-        <label>テスト</label>
-        <p>テスト</p>
+  const handleClick = () => {
+    alert('Clicked!');
+    
+  };
 
-        <p>fileinput</p>
-      </>
-    );
-  }
-  
+  return (
+    <>
+      <h1>テストtest</h1>
+      <Icon_size></Icon_size>
+      <label>テスト</label>
+      <p>テスト</p>
+
+      <p>message_icon</p>
+
+      <StyledButton onClick={handleClick}>Click me!</StyledButton>
+      {/* ↑ クリック時の処理を指定したボタン要素 */}
+
+
+    </>
+  );
+}
+
 

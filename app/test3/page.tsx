@@ -15,11 +15,7 @@ const App: React.FC = () => {
         <ImageUploader />
       </FlexCenter_S>
 
-      <ImageUploader />
-
-      <h1>画像アップローダー</h1>
-
-
+      {/* <ImageUploader /> */}
     </div>
   );
 };

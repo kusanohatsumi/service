@@ -1,18 +1,18 @@
-import Group from "@/ui/community/group1";
-import  "@/ui/community/group";
-import Flexusericon from "@/ui/community/circle";
-import Icon_size from "@/ui/community/icon_s";
+"use client"
+import React from 'react';
+import ImageUpload from './ImageUpload';
 
-export default function test() {
-    return (
-      <>
-        <h1>テストtest</h1>
-        <Group></Group>
-        <Flexusericon/>
-        {/* <a>aaa</a>
-        <Icon_size></Icon_size>
-         */}
-      </>
-    );
-  }
-  
+const App: React.FC = () => {
+  const handleImageSelect = (file: File) => {
+    // 選択された画像の処理を行う
+    console.log(file);
+  };
+
+  return (
+    <div>
+      <ImageUpload onImageSelect={handleImageSelect} />
+    </div>
+  );
+};
+
+export default App;
