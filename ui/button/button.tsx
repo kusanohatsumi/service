@@ -17,7 +17,7 @@ export const Button = styled.button`
   font-size: 14px;
 `;
 export const Button_link = styled.a.attrs({
-  src: '/',
+  href: '/create_account',
 })`
   background: linear-gradient(
     90deg,
@@ -56,7 +56,7 @@ export const Button__border = styled.button`
   font-size: 14px;
 `;
 
-export const Button__border_link = styled.a`
+export const Button__border_link = styled.a.attrs({})`
   background: #fff;
   width: 158px;
   height: 38px;
