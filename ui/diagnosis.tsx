@@ -1,5 +1,4 @@
 'use client';
-
 import styled from 'styled-components';
 
 const Bg = styled.div`
@@ -9,7 +8,9 @@ const Bg = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-
+  margin: 0 auto;
+  padding: 12px;
+  border-radius: 5px;
   background: linear-gradient(
     90deg,
     rgba(244, 188, 247, 1) 0%,
@@ -21,20 +22,18 @@ const Bg = styled.div`
 
 export default function Diagnosis() {
   return (
-    <>
-      <Bg className="rounded-md p-2">
-        <article className="flex h-full w-full flex-col items-center justify-center rounded-md bg-white">
-          <h2 className="mb-6 font-bold">セクシュアリティ</h2>
-          <p className="text-xs">
-            この診断ではあなたのセクシュアリティ。 <br />
-            こころの性・ふるまう性
-            <br />
-            性的指向・恋愛指向 <br />
-            の4つから「あなたの性のあり方」を <br />
-            明らかにします。
-          </p>
-        </article>
-      </Bg>
-    </>
+    <Bg>
+      <div className="flex h-full w-full flex-col items-center justify-center rounded-md bg-white">
+        <h2 className="mb-6 font-bold">セクシュアリティ</h2>
+        <p className="text-xs">
+          この診断ではあなたのセクシュアリティ。 <br />
+          こころの性・ふるまう性
+          <br />
+          性的指向・恋愛指向 <br />
+          の4つから「あなたの性のあり方」を <br />
+          明らかにします。
+        </p>
+      </div>
+    </Bg>
   );
 }

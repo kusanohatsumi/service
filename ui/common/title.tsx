@@ -10,52 +10,30 @@ export const TitleSpace = styled.div`
   height: 35px;
   display: flex;
   align-items: center;
+  position: relative;
 `;
 
 // 項目
 export const TitleText = styled.h2`
-  width: 100%;
-  ${Bg_PG}
-  line-height: 35px;
+  width: auto;
+  line-height: 100%;
+  background: linear-gradient(
+    -90deg,
+    rgba(244, 188, 247, 1) 0%,
+    rgba(154, 229, 225, 1) 100%
+  );
   color: transparent;
   -webkit-background-clip: text;
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: bold;
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  &::before {
-    content: '';
-    display: block;
-    width: 24px;
-    height: 24px;
-    background: url('/arrow_back.svg');
-    position: absolute;
-    left: 12px;
-  }
+  margin: 0 auto;
 `;
-// 項目 グラデーション
-export const TitleText_Grad = styled.h2`
-  width: 100%;
-  line-height: 35px;
-
-  color: #333;
-  font-size: 16px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  &::before {
-    content: '';
-    display: block;
-    width: 24px;
-    height: 24px;
-    background: url('/arrow_back.svg');
-    position: absolute;
-    left: 12px;
-  }
+export const Back = styled.a`
+  position: absolute;
+  top: 20%;
+  left: 16px;
+  height: 30px;
 `;
 
 // 検索バー

@@ -1,7 +1,11 @@
+'use client';
+import Form from '@/ui/form';
+import NavLink from '@/ui/nav_link/navlink';
+
 export default function NewAccount() {
   return (
     <>
-      <h1>新規登録</h1>
+      <Form />
     </>
   );
 }

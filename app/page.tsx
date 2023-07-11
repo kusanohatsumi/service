@@ -63,11 +63,9 @@ export default function Home() {
             </FlexCenter>
             {/*  */}
             <FlexCenter className="flex-col">
-              <Button_link className="mb-4 text-center">新規登録</Button_link>
+              <Button_link href="/create_account">新規登録</Button_link>
               <Button_bg>
-                <Button__border_link className="text-center">
-                  ログイン
-                </Button__border_link>
+                <Button__border_link>ログイン</Button__border_link>
               </Button_bg>
             </FlexCenter>
           </div>
