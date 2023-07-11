@@ -21,7 +21,6 @@ export default function Form() {
             <Input_M type="name" name="名" placeholder="名" />
           </InputWrap>
         </div>
-
         <div className="mb-6 w-full">
           <Label>生年月日</Label>
           <InputWrap>
