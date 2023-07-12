@@ -1,7 +1,7 @@
-
-import 'styles/globals.css'
-import { Inter } from 'next/font/google'
-
+import 'styles/globals.css';
+import { Inter } from 'next/font/google';
+import Head from 'next/head';
+import StyledComponentsRegistry from 'lib/registry';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
