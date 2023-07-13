@@ -35,9 +35,10 @@ export default function Navlink() {
     <>
       <Navlink_all>
         <NavItem>
-          <NavLink_now className="mb-2">
+          <NavLink className="mb-2">1</NavLink>
+          {/* <NavLink_now className="mb-2">
             <Image src="/check.svg" width={34} height={34} alt="完了" />
-          </NavLink_now>
+          </NavLink_now> */}
           <p className="opacity-60">基本情報</p>
         </NavItem>
         <NavItem>

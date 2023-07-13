@@ -17,6 +17,8 @@ export default function creati() {
         <div className="bottom-0 fixed w-full">
           <NavigationBar />
         </div>
+        <h1>コミュニティ アカウント作成</h1>
+        <NavigationBar />
       </div>
     </>
   );

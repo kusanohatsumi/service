@@ -7,7 +7,7 @@ import Image from 'next/image';
 
   const Externaltab = styled.div`
   width: 100%;
-  height: 280px;
+  height: 240px;
   padding-top: 20px;
   text-align: center;
   border-radius: 45px 45px 0px 0px;
@@ -17,7 +17,7 @@ import Image from 'next/image';
     rgba(154, 229, 225, 1) 100%
   );
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
 `;
 
 const Externalaccount = styled.button`
@@ -28,17 +28,18 @@ const Externalaccount = styled.button`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 16px;
+  padding: 0 20px;
   color: #333;
+  font-weight: bold;
 `;
 
 export default function External() {
   return (
     <>
       <Externaltab>
-        <p className=" text-white">外部アカウントで新規登録</p>
+        <p className="font-bold text-white">外部アカウントで新規登録</p>
         <FlexCenter className="flex-col">
-          <div className="m-6">
+          <div className="mb-4 mt-6">
             <Externalaccount>
               <Image
                 src="/twitter-logo.svg"
@@ -46,7 +47,6 @@ export default function External() {
                 width={22}
                 height={22}
               />
-
               <Image
                 src="/twitter-text.svg"
                 alt="twitter"

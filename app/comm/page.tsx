@@ -5,6 +5,8 @@ import CreateGroup from "@/ui/communityItem/craete_group"; //グループ作成�
 import NavLink from "@/ui/nav_link/navlink";
 import Image from "next/image";
 import { Inder } from "next/font/google";
+import Icon_size from "@/ui/Community/icon_s";
+import Comment from "@/ui/communityItem/comment";
 
 // import icon_S
 // import icon_M
@@ -13,6 +15,10 @@ import { Inder } from "next/font/google";
 export default function Comm() {
   return (
     <>
+    
+      <div>
+        <Icon_size></Icon_size>
+      </div>
       <NavLink></NavLink>
       <h1>コミュニティ アカウント作成</h1>
       <div className="">
@@ -37,6 +43,16 @@ export default function Comm() {
         />
       </div>
 
+      <div className=" text-3xl">
+        ✕
+      </div>
+      
+      <div className=" text-3xl h-6 ">
+        作成
+      </div>
+      
+      {/* <Posting></Posting> */}
+      <CreateGroup></CreateGroup>
 
     </>
   );
