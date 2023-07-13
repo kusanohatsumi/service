@@ -15,7 +15,7 @@ export default function RootLayout({
         <Back href="/">
           <Image src="/arrow_back.svg" width={24} height={24} alt="logo" />
         </Back>
-        <TitleText>基本情報</TitleText>
+        <TitleText>ログイン</TitleText>
       </TitleSpace>
       {children}
     </>

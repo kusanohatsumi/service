@@ -1,7 +1,7 @@
 'use client';
 
 import styled from 'styled-components';
-import { Button, Button_link } from './button/button';
+import { Button_link } from './button/button';
 import {
   InputWrap,
   Input_L,
