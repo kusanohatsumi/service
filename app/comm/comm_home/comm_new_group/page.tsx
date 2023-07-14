@@ -1,10 +1,15 @@
+import CreateGroup from '@/ui/communityItem/craete_group';
+
 export default function comm_new_group() {
-    return (
-      <>
-        <h1>コミュニティ アカウント作成  確認画面</h1>
-        
-  
-      </>
-    );
-  }
-  
+  return (
+    <>
+      <div className="flex">
+        <div className=" px-4 py-4">✕</div>
+
+        <div className=" mr-10 py-4">作成</div>
+      </div>
+
+      <CreateGroup></CreateGroup>
+    </>
+  );
+}
