@@ -25,7 +25,10 @@ const Spot_figcaption = styled.figcaption`
 export default function NavigationBar() {
   return (
     <>
-      <div className="absolute bottom-0 flex h-16 w-full justify-around  pt-2 bg-white">
+      <div
+        className="
+      absolute bottom-0 flex h-16 w-full justify-around  pt-2"
+      >
         <NavImg>
           <Image
             src="/nav_matching.svg"

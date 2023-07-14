@@ -1,16 +1,11 @@
 'use client';
 import Form from '@/ui/form';
-<<<<<<< HEAD
-=======
 import { NavItem, Navlink_all } from '@/ui/nav_link';
->>>>>>> 23f6fe8dd523d2e3f06370219a85eb652937aa30
 import NavLink from '@/ui/nav_link/navlink';
 
 export default function NewAccount() {
   return (
     <>
-<<<<<<< HEAD
-=======
       <Navlink_all>
         <NavItem>
           <NavLink className="mb-2">1</NavLink>
@@ -29,7 +24,6 @@ export default function NewAccount() {
           <p>登録完了</p>
         </NavItem>
       </Navlink_all>
->>>>>>> 23f6fe8dd523d2e3f06370219a85eb652937aa30
       <Form />
     </>
   );

@@ -2,6 +2,7 @@
 import Posting from "@/ui/communityItem/posting";
 // import Evaluation from "@/ui/communityItem/evaluation"　×使わない（いいねのコンテナ）
 import CreateGroup from "@/ui/communityItem/craete_group"; //グループ作成のコンテナ
+<<<<<<< HEAD
 import NavLink from "@/ui/nav_link/navlink";
 import Image from "next/image";
 import { Inder } from "next/font/google";
@@ -10,6 +11,8 @@ import Comment from "@/ui/communityItem/comment";
 import NavigationBar from "@/ui/navigation-bar";
 import { Button } from "@/ui/button/button";
 import { FlexCenter_L, FlexCenter_S, FlexSquare } from "@/ui/community/circle";
+=======
+>>>>>>> 04d5859dfe44acbc39160366ac794c2763674ef2
 
 // import icon_S
 // import icon_M
@@ -18,6 +21,7 @@ import { FlexCenter_L, FlexCenter_S, FlexSquare } from "@/ui/community/circle";
 export default function Comm() {
   return (
     <>
+<<<<<<< HEAD
       <div className="flex justify-center ">
         <div className="text-3xl pt-3 pl-0">
           ＜
@@ -35,6 +39,18 @@ export default function Comm() {
           <FlexSquare>
           </FlexSquare>
         </FlexCenter_L>
+=======
+      <div className=" text-3xl">
+        ✕
+      </div>
+      
+      <div className=" text-3xl h-6 ">
+        作成
+      </div>
+      
+      {/* <Posting></Posting> */}
+      <CreateGroup></CreateGroup>
+>>>>>>> 04d5859dfe44acbc39160366ac794c2763674ef2
 
         <FlexCenter_S>
           <Image
@@ -59,5 +75,10 @@ export default function Comm() {
 
       </div>
     </>
+<<<<<<< HEAD
       );
 }
+=======
+  );
+}
+>>>>>>> 04d5859dfe44acbc39160366ac794c2763674ef2
