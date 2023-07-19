@@ -20,18 +20,18 @@ const ImageUploader: React.FC = () => {
 
 	return (
 		<div>
-			<div>
+			<div className=' '>
 				<input type="file" onChange={handleImageUpload} style={{ width: '42px', height: '42px', color: '#EF4444',opacity: '0' ,position: 'absolute', borderRadius: '50%'}} />
 				<Image
 				src="/comm_photo.svg"
 				alt="magn glassifying"
-				style={{ width: '22px', height: '22px',backgroundColor: '#8AD8D4', borderRadius: '50%'}}
-				width={142}
+				style={{ width: '42px', height: '42px',backgroundColor: '#8AD8D4', borderRadius: '50%'}}
+				width={42}
 				height={42}
 			/>
 			</div>
 			{selectedImage && (
-				<div className=' border border-solid border-red-400' style={{ width: '136px', height: '136px', borderRadius: '50%', overflow: 'hidden' , position:'absolute' ,top:'0',left:'0'}}>
+				<div style={{ width: '133px', height: '133px', borderRadius: '50%', overflow: 'hidden' , position:'absolute' ,bottom :'3px', right :'-6px' , zIndex:'-10'}}>
 					<img src={selectedImage} alt="Selected" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
 				</div>
 			)}
