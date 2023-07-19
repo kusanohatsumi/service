@@ -1,3 +1,4 @@
+
 // import Comment from "@/ui/communityItem/comment"; ×使わない(コメント追加のコンテナ)
 import Posting from '@/ui/communityItem/posting';
 // import Evaluation from "@/ui/communityItem/evaluation"　×使わない（いいねのコンテナ）
