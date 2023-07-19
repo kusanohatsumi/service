@@ -3,7 +3,7 @@ import NavLink_now from '@/ui/nav_link/navlink_now';
 import Image from 'next/image';
 import styled from 'styled-components';
 
-const Navlink_all = styled.div`
+export const Navlink_all = styled.div`
   width: 100%;
   height: auto;
   padding: 12px 32px;
@@ -14,7 +14,7 @@ const Navlink_all = styled.div`
   justify-content: space-around;
 `;
 
-const Border = styled.div`
+export const Border = styled.div`
   width: 34px;
   height: 2px;
   background: linear-gradient(
@@ -24,7 +24,7 @@ const Border = styled.div`
   );
 `;
 
-const NavItem = styled.div`
+export const NavItem = styled.div`
   dsiplay: flex;
   flex-direction: column;
   align-items: center;
@@ -35,22 +35,20 @@ export default function Navlink() {
     <>
       <Navlink_all>
         <NavItem>
-          <NavLink_now className="mb-2">
+          <NavLink className="mb-2">1</NavLink>
+          {/* <NavLink_now className="mb-2">
             <Image src="/check.svg" width={34} height={34} alt="完了" />
-          </NavLink_now>
+          </NavLink_now> */}
           <p className="opacity-60">基本情報</p>
         </NavItem>
-        <Border className="mt-4" />
         <NavItem>
           <NavLink className="mb-2">2</NavLink>
           <p>本人認証</p>
         </NavItem>
-        <Border className="mt-4 opacity-60" />
         <NavItem>
           <NavLink className="mb-2">3</NavLink>
           <p>事前診断</p>
         </NavItem>
-        <Border className="mt-4 opacity-60" />
         <NavItem>
           <NavLink className="mb-2">4</NavLink>
           <p>診断確認</p>

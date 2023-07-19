@@ -10,7 +10,6 @@ const App: React.FC = () => {
         <FlexSquare>
         </FlexSquare>
       </FlexCenter_L>
-
       <FlexCenter_S className=' z-10'>
         <ImageUploader />
       </FlexCenter_S>
