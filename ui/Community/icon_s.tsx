@@ -2,7 +2,7 @@
 import styled from "styled-components";
 import Image from 'next/image';
 
-export const circle = styled.div`
+const circle = styled.div`
     //丸いアイコン
     display: flex;  
     width: 40px;
@@ -11,7 +11,7 @@ export const circle = styled.div`
     background-color: #8AD8D4;
 `;
 
-export const S_Circle = styled.div`
+const S_Circle = styled.div`
     //小さい丸い形
     display: flex;
     justify-content: center;
@@ -19,10 +19,10 @@ export const S_Circle = styled.div`
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    
+    background-color: red; 
 `;
 
-export const M_Circle = styled.div`
+const M_Circle = styled.div`
     //小さい丸い形
     display: flex;
     justify-content: center;
@@ -32,62 +32,53 @@ export const M_Circle = styled.div`
     border-radius: 50%;
     background-color: #D9D9D9; 
 `;
- 
-export const Small_square = styled.div`
+
+const Small_square = styled.div`
     //小さい四角形
     width: 35px;
     height: 35px;
     background-color: #8AD8D4;
 `;
 
-export const Font = styled.p`
+const Font = styled.p`
     //文字
     height: 30px;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: bold;
     color: #C8C8C8;
-    text-align: center;
 `;
 
 
 export default function Icon_size() {
     return (
         <>
-            <a className=" ml-6 text-center mt-1">
+            <h1>テストicon</h1>
+            <circle></circle>
+            <M_Circle></M_Circle>
+            <Small_square></Small_square>
+            <a>
                 <Image
                     src="/+.svg"
                     alt="magn glassifying"
                     width={52}
                     height={52}
                 />
-                <Font className=" mt-1">新規作成</Font>
+                <Font>新規作成</Font>
             </a>
-            <a className=" ml-6 text-center mt-1">
-                <Image
-                    src="/comm/test_icon3.svg"
-                    alt="magn glassifying"
-                    width={52}
-                    height={52}
-                />
-                <Font className=" mt-1">official</Font>
-            </a>
-            <a className=" ml-6 text-center mt-1">
-                <Image
-                    src="/comm/test_icon2.svg"
-                    alt="magn glassifying"
-                    width={52}
-                    height={52}
-                />
-                <Font className=" mt-1">group-1</Font>
-            </a>
-            <a className=" ml-6 text-center mt-1">
-                <Image
-                    src="/comm/test_icon4.svg"
-                    alt="magn glassifying"
-                    width={52}
-                    height={52}
-                />
-                <Font className=" mt-1">group-1</Font>
+
+
+
+            <a>
+                <S_Circle>
+                    <Image
+                        src="/+.svg"
+                        alt="magn glassifying"
+                        width={52}
+                        height={52}
+                    />
+                </S_Circle>
+
+                <M_Circle></M_Circle>
             </a>
         </>
     );
