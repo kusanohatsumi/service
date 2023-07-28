@@ -2,7 +2,7 @@
 import styled from "styled-components";
 import Image from 'next/image';
 
-const circle = styled.div`
+export const circle = styled.div`
     //丸いアイコン
     display: flex;  
     width: 40px;
@@ -11,7 +11,7 @@ const circle = styled.div`
     background-color: #8AD8D4;
 `;
 
-const S_Circle = styled.div`
+export const S_Circle = styled.div`
     //小さい丸い形
     display: flex;
     justify-content: center;
@@ -22,7 +22,7 @@ const S_Circle = styled.div`
     background-color: red; 
 `;
 
-const M_Circle = styled.div`
+export const M_Circle = styled.div`
     //小さい丸い形
     display: flex;
     justify-content: center;
@@ -33,7 +33,7 @@ const M_Circle = styled.div`
     background-color: #D9D9D9; 
 `;
 
-const Small_square = styled.div`
+export const Small_square = styled.div`
     //小さい四角形
     width: 35px;
     height: 35px;

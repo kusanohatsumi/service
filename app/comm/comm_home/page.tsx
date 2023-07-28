@@ -3,9 +3,9 @@ import NavigationBar from '@/ui/navigation-bar';
 import NavLink from '@/ui/nav_link/navlink';
 import NavLink_now from '@/ui/nav_link/navlink_now';
 import Image from 'next/image';
-import Icon_size, { M_Circle, S_Circle } from '@/ui/Community/icon_s';
 import HomeHeader from '@/ui/home-head';
 import styled from 'styled-components';
+import Icon_size from '@/ui/Community/icon_s';
 
 export default function comm_home() {
   return (
