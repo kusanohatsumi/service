@@ -4,7 +4,7 @@ import { Bg_div_PG } from '@/ui/color/color';
 import { Pseudoelement } from '@/ui/pseudoelement';
 import styled from 'styled-components';
 import Image from 'next/image';
-import { S_Circle } from '@/ui/Community/icon_s';
+import { S_Circle } from '@/ui/community/icon_s';
 
 const Dummy = styled.div`
   width: 35px;

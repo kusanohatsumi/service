@@ -4,15 +4,15 @@ import NavLink from '@/ui/nav_link/navlink';
 import Image from 'next/image';
 
 import HomeHeader from '@/ui/home-head';
-import Icon_size from '@/ui/Community/icon_s';
+import Icon_size from '@/ui/community/icon_s';
 
 
 export default function comm_home() {
   return (
     <>
-      <div className="mb-16 mt-48 ">
+      <div className="mb-16 mt-40 ">
         <div className="fixed  top-0 z-50 w-full border-2 bg-white">
-          <div className=" flex h-24 border">
+          <div className=" flex h-16 border">
             <HomeHeader />
           </div>
 

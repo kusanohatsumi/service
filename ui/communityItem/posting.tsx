@@ -4,7 +4,7 @@
 
 import Image from 'next/image';
 import Comment from './comment';
-import { S_Circle } from '../Community/icon_s';
+import { S_Circle } from '../community/icon_s';
 
 export default function Posting() {
   return (
