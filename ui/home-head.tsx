@@ -50,7 +50,7 @@ const Serch = styled.input.attrs({
 export default function HomeHeader() {
   return (
     <>
-      <div className="flex items-center justify-around m-auto">
+      <div className="flex items-center justify-around m-auto -z-10">
         <div className='mx-2'>
           <S_Circle>
             <Image
