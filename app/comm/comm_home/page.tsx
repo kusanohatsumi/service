@@ -23,9 +23,9 @@ const Modal: React.FC<ModalProps> = ({ showModal, onClose }) => {
   return (
     <div className="modal-overlay absolute z-10 " onClick={handleCloseModal}>
       {/* <div className="border border-blue-300 h-11 w-60 bg-blue-100"></div> */}
-      <div className="modal-content w-72 h-96 border-4 border-red-300 z-20 " onClick={(e) => e.stopPropagation()}>
+      <div className="modal-content w-72 h-96 border-4 border-lime-400 z-20 " onClick={(e) => e.stopPropagation()}>
         <div className="">
-          <button className="border border-red-300" onClick={() => setModalType("management")}>運営</button>
+          <button className="borde border-b-2 " onClick={() => setModalType("management")}>運営</button>
           <button className="border border-blue-300" onClick={() => setModalType("space")}>スペース</button>
         </div>
         {modalType === "management" && (

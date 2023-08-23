@@ -33,8 +33,8 @@ const ImageUploader: React.FC = () => {
 			/>
 			</div>
 			{selectedImage && (
-				//<div style={{ width: '133px', height: '133px', borderRadius: '50%', overflow: 'hidden' , position:'absolute' ,bottom :'3px', right :'-6px' , zIndex:'-10'}}>
-				<div className=' border border-solid border-red-400' style={{ width: '136px', height: '136px', borderRadius: '50%', overflow: 'hidden' , position:'absolute' ,top:'0',left:'0'}}>
+				<div style={{ width: '133px', height: '133px', borderRadius: '50%', overflow: 'hidden' , position:'absolute' ,bottom :'3px', right :'-6px' , zIndex:'-10'}}>
+				{/* // <div className=' border border-solid border-red-400' style={{ width: '136px', height: '136px', borderRadius: '50%', overflow: 'hidden' , position:'absolute' ,top:'0',left:'0'}}> */}
 					<img src={selectedImage} alt="Selected" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
 				</div>
 			)}
