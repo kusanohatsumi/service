@@ -24,7 +24,7 @@ export default function StyleLayout({
       </div>
       <div style={{ marginTop: '12vh' }}>
         {params.id == 3 ? (
-          <Button_link href="/comm/comm_home">登録完了</Button_link>
+          <Button_link href="/comm">登録完了</Button_link>
         ) : (
           <Button_link href={`${Number(id) + 1}`}>次の質問</Button_link>
         )}

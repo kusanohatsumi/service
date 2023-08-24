@@ -13,28 +13,30 @@ import {
 export default function Test() {
   return (
     <>
-      <div className="text-center font-sans font-medium text-xl leading-6">コミュニティ</div>
 
-      <div className=' flex justify-center'>
-        <MyComponent></MyComponent>
+      <div className="text-center font-sans font-medium text-xl leading-6 pb-12 pt-5">コミュニティ</div>
+
+
+      <div className=' flex justify-center pb-10'>
+        <MyComponent/>
       </div>
 
-      <form className="mx-auto mt-6 flex w-60 flex-col items-center">
+      <form className="mx-auto mt-6 flex w-60 flex-col items-center pb-6">
         <div className="mb-6 w-full">
-          <Label>ユーザーネーム</Label>
-          <Input_L type="tel" name="tel" placeholder="電話番号" />
+          <Label className=' text-xs'>ユーザーネーム</Label>
+          <Input_L type="tel" name="tel" placeholder="ユーザーネーム" />
         </div>
       </form>
 
       <FlexCenter className="flex-col">
-        <Button_link href="/create_account">新規登録</Button_link>
+        <Button_link href="comm/comm_creating">アカウント作成</Button_link>
       </FlexCenter>
-      
+
       {/* 3つのアイコン */}
       <div className="fixed bottom-0  w-full">
         <NavigationBar />
       </div>
 
-      </>
-      );
+    </>
+  );
 }
