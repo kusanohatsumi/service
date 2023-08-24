@@ -53,7 +53,7 @@ export const Font = styled.p`
 export default function Icon_size() {
     return (
         <>
-            <a className=" ml-6 text-center mt-1">
+            <a href="comm_home/comm_talk" className=" ml-6 text-center mt-1">
                 <Image
                     src="/+.svg"
                     alt="magn glassifying"

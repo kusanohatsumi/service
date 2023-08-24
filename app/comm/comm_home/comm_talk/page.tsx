@@ -1,8 +1,7 @@
-import Icon_size, { S_Circle } from '@/ui/Community/icon_s';
+import Icon_size, { S_Circle } from '@/ui/community/icon_s';
 import { Button, Button_min } from '@/ui/button/button';
-import { Bg_div_GP } from '@/ui/color/color';
 import Image from 'next/image';
-import styled from 'styled-components';
+
 
 // const Serch = styled.input.attrs({
 //   type: 'text',
@@ -13,7 +12,7 @@ export default function comm_talk() {
   return (
     <>
       <div className="flex">
-        <div className=" px-4 py-4">✕</div>
+        <a href='.' className=" px-4 py-4">✕</a>
 
         <div className=" mr-10 py-4">
           <Button_min>投稿する</Button_min>
